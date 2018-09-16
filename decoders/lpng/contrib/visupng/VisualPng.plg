@@ -1,0 +1,28 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: VisualPng - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Angel\LOCALS~1\Temp\RSP2894.tmp" with contents
+[
+..\..\projects\visualc6\Win32_LIB_Release\libpng.lib ..\..\..\zlib\projects\visualc6\Win32_LIB_Release\zlib.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/VisualPng.pdb" /debug /machine:I386 /nodefaultlib:"msvcrt.lib" /out:"Debug/VisualPng.exe" /pdbtype:sept 
+".\Debug\PngFile.obj"
+".\Debug\VisualPng.obj"
+".\Debug\VisualPng.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\Angel\LOCALS~1\Temp\RSP2894.tmp"
+<h3>Output Window</h3>
+Linking...
+LINK : fatal error LNK1104: cannot open file "..\..\projects\visualc6\Win32_LIB_Release\libpng.lib"
+Error executing link.exe.
+
+
+
+<h3>Results</h3>
+VisualPng.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

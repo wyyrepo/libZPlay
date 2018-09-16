@@ -1,0 +1,63 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: libmad - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\Angel\LOCALS~1\Temp\RSP8FB.tmp" with contents
+[
+/nologo /MLd /Gm /GX /ZI /Od /I "." /D "FPM_DEFAULT" /D "_LIB" /D "HAVE_CONFIG_H" /D "ASO_ZEROCHECK" /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "DEBUG" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\01mad\libmad-0.15.1b\libmad-0.15.1b\bit.c"
+"D:\01mad\libmad-0.15.1b\libmad-0.15.1b\decoder.c"
+"D:\01mad\libmad-0.15.1b\libmad-0.15.1b\fixed.c"
+"D:\01mad\libmad-0.15.1b\libmad-0.15.1b\frame.c"
+"D:\01mad\libmad-0.15.1b\libmad-0.15.1b\huffman.c"
+"D:\01mad\libmad-0.15.1b\libmad-0.15.1b\layer12.c"
+"D:\01mad\libmad-0.15.1b\libmad-0.15.1b\layer3.c"
+"D:\01mad\libmad-0.15.1b\libmad-0.15.1b\stream.c"
+"D:\01mad\libmad-0.15.1b\libmad-0.15.1b\synth.c"
+"D:\01mad\libmad-0.15.1b\libmad-0.15.1b\timer.c"
+"D:\01mad\libmad-0.15.1b\libmad-0.15.1b\version.c"
+]
+Creating command line "cl.exe @D:\DOCUME~1\Angel\LOCALS~1\Temp\RSP8FB.tmp" 
+Creating temporary file "D:\DOCUME~1\Angel\LOCALS~1\Temp\RSP8FC.tmp" with contents
+[
+/nologo /out:"Debug\libmad.lib" 
+".\Debug\bit.obj"
+".\Debug\decoder.obj"
+".\Debug\fixed.obj"
+".\Debug\frame.obj"
+".\Debug\huffman.obj"
+".\Debug\layer12.obj"
+".\Debug\layer3.obj"
+".\Debug\stream.obj"
+".\Debug\synth.obj"
+".\Debug\timer.obj"
+".\Debug\version.obj"
+]
+Creating command line "link.exe -lib @D:\DOCUME~1\Angel\LOCALS~1\Temp\RSP8FC.tmp"
+<h3>Output Window</h3>
+Compiling...
+bit.c
+decoder.c
+fixed.c
+frame.c
+huffman.c
+layer12.c
+layer3.c
+stream.c
+synth.c
+timer.c
+version.c
+Generating Code...
+Creating library...
+
+
+
+<h3>Results</h3>
+libmad.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

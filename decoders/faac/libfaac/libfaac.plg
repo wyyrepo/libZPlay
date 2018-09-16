@@ -1,0 +1,89 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: libfaac - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Angel\LOCALS~1\Temp\RSPF32.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /Fp"Debug/libfaac.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"D:\01project\libzplay-2.00\decoders\faac\libfaac\util.c"
+"D:\01project\libzplay-2.00\decoders\faac\libfaac\aacquant.c"
+"D:\01project\libzplay-2.00\decoders\faac\libfaac\backpred.c"
+"D:\01project\libzplay-2.00\decoders\faac\libfaac\bitstream1.c"
+"D:\01project\libzplay-2.00\decoders\faac\libfaac\channels.c"
+"D:\01project\libzplay-2.00\decoders\faac\libfaac\fft.c"
+"D:\01project\libzplay-2.00\decoders\faac\libfaac\filtbank1.c"
+"D:\01project\libzplay-2.00\decoders\faac\libfaac\frame1.c"
+"D:\01project\libzplay-2.00\decoders\faac\libfaac\huffman2.c"
+"D:\01project\libzplay-2.00\decoders\faac\libfaac\ltp.c"
+"D:\01project\libzplay-2.00\decoders\faac\libfaac\midside.c"
+"D:\01project\libzplay-2.00\decoders\faac\libfaac\psychkni.c"
+"D:\01project\libzplay-2.00\decoders\faac\libfaac\tns1.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Angel\LOCALS~1\Temp\RSPF32.tmp" 
+Creating temporary file "C:\DOCUME~1\Angel\LOCALS~1\Temp\RSPF33.tmp" with contents
+[
+/nologo /out:"Debug\libfaac.lib" 
+".\Debug\util.obj"
+".\Debug\aacquant.obj"
+".\Debug\backpred.obj"
+".\Debug\bitstream1.obj"
+".\Debug\channels.obj"
+".\Debug\fft.obj"
+".\Debug\filtbank1.obj"
+".\Debug\frame1.obj"
+".\Debug\huffman2.obj"
+".\Debug\ltp.obj"
+".\Debug\midside.obj"
+".\Debug\psychkni.obj"
+".\Debug\tns1.obj"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\Angel\LOCALS~1\Temp\RSPF33.tmp"
+<h3>Output Window</h3>
+Compiling...
+util.c
+aacquant.c
+d:\01project\libzplay-2.00\decoders\faac\libfaac\aacquant.c(198) : warning C4244: 'function' : conversion from 'double ' to 'int ', possible loss of data
+d:\01project\libzplay-2.00\decoders\faac\libfaac\aacquant.c(337) : warning C4307: '*' : integral constant overflow
+d:\01project\libzplay-2.00\decoders\faac\libfaac\aacquant.c(337) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+d:\01project\libzplay-2.00\decoders\faac\libfaac\aacquant.c(446) : warning C4244: '=' : conversion from 'double ' to 'int ', possible loss of data
+d:\01project\libzplay-2.00\decoders\faac\libfaac\aacquant.c(447) : warning C4244: '=' : conversion from 'double ' to 'int ', possible loss of data
+d:\01project\libzplay-2.00\decoders\faac\libfaac\aacquant.c(602) : warning C4244: '=' : conversion from 'double ' to 'int ', possible loss of data
+d:\01project\libzplay-2.00\decoders\faac\libfaac\aacquant.c(614) : warning C4244: '=' : conversion from 'double ' to 'int ', possible loss of data
+backpred.c
+bitstream1.c
+d:\01project\libzplay-2.00\decoders\faac\libfaac\bitstream1.c(124) : warning C4013: 'strlen' undefined; assuming extern returning int
+channels.c
+fft.c
+d:\01project\libzplay-2.00\decoders\faac\libfaac\fft.c(614) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+d:\01project\libzplay-2.00\decoders\faac\libfaac\fft.c(615) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+filtbank1.c
+frame1.c
+d:\01project\libzplay-2.00\decoders\faac\libfaac\frame1.c(235) : warning C4244: '=' : conversion from 'double ' to 'unsigned int ', possible loss of data
+d:\01project\libzplay-2.00\decoders\faac\libfaac\frame1.c(241) : warning C4244: '=' : conversion from 'double ' to 'unsigned int ', possible loss of data
+d:\01project\libzplay-2.00\decoders\faac\libfaac\frame1.c(242) : warning C4244: '=' : conversion from 'double ' to 'unsigned long ', possible loss of data
+d:\01project\libzplay-2.00\decoders\faac\libfaac\frame1.c(245) : warning C4018: '>' : signed/unsigned mismatch
+d:\01project\libzplay-2.00\decoders\faac\libfaac\frame1.c(330) : warning C4244: '=' : conversion from 'double ' to 'unsigned int ', possible loss of data
+d:\01project\libzplay-2.00\decoders\faac\libfaac\frame1.c(331) : warning C4018: '>' : signed/unsigned mismatch
+d:\01project\libzplay-2.00\decoders\faac\libfaac\frame1.c(533) : warning C4018: '<' : signed/unsigned mismatch
+d:\01project\libzplay-2.00\decoders\faac\libfaac\frame1.c(545) : warning C4018: '<' : signed/unsigned mismatch
+d:\01project\libzplay-2.00\decoders\faac\libfaac\frame1.c(557) : warning C4018: '<' : signed/unsigned mismatch
+huffman2.c
+ltp.c
+midside.c
+psychkni.c
+d:\01project\libzplay-2.00\decoders\faac\libfaac\psychkni.c(346) : warning C4244: '=' : conversion from 'double ' to 'int ', possible loss of data
+d:\01project\libzplay-2.00\decoders\faac\libfaac\psychkni.c(393) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+tns1.c
+Creating library...
+
+
+
+<h3>Results</h3>
+libfaac.lib - 0 error(s), 21 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: bmp2code - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\Angel\LOCALS~1\Temp\RSP1B57.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/bmp2code.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\994tren\bmp2code\bmptocode.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\Angel\LOCALS~1\Temp\RSP1B57.tmp" 
+Creating temporary file "D:\DOCUME~1\Angel\LOCALS~1\Temp\RSP1B58.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/bmp2code.pdb" /debug /machine:I386 /out:"Debug/bmp2code.exe" /pdbtype:sept 
+.\Debug\bmptocode.obj
+]
+Creating command line "link.exe @D:\DOCUME~1\Angel\LOCALS~1\Temp\RSP1B58.tmp"
+<h3>Output Window</h3>
+Compiling...
+bmptocode.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+bmp2code.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

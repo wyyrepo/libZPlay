@@ -1,0 +1,45 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: vorbisfile_static - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\Angel\LOCALS~1\Temp\RSP2DC.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /I "..\include" /I "..\..\ogg\include" /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /Fp"VorbisFile_Static_Debug/vorbisfile_static.pch" /YX /Fo"VorbisFile_Static_Debug/" /Fd"VorbisFile_Static_Debug/" /FD /GZ /c 
+"D:\991tren\libwmp3-2.4-source\libvorbis\lib\vorbisfile.c"
+]
+Creating command line "cl.exe @D:\DOCUME~1\Angel\LOCALS~1\Temp\RSP2DC.tmp" 
+Creating command line "link.exe -lib /nologo /out:"VorbisFile_Static_Debug\vorbisfile_static_d.lib"  ".\VorbisFile_Static_Debug\vorbisfile.obj" "
+<h3>Output Window</h3>
+Compiling...
+vorbisfile.c
+d:\991tren\libwmp3-2.4-source\libvorbis\include\vorbis\vorbisfile.h(53) : warning C4244: 'function' : conversion from '__int64 ' to 'long ', possible loss of data
+d:\991tren\libwmp3-2.4-source\libvorbis\lib\vorbisfile.c(216) : warning C4244: 'return' : conversion from '__int64 ' to 'int ', possible loss of data
+d:\991tren\libwmp3-2.4-source\libvorbis\lib\vorbisfile.c(259) : warning C4244: 'return' : conversion from '__int64 ' to 'int ', possible loss of data
+d:\991tren\libwmp3-2.4-source\libvorbis\lib\vorbisfile.c(276) : warning C4244: 'return' : conversion from '__int64 ' to 'int ', possible loss of data
+d:\991tren\libwmp3-2.4-source\libvorbis\lib\vorbisfile.c(278) : warning C4244: 'return' : conversion from '__int64 ' to 'int ', possible loss of data
+d:\991tren\libwmp3-2.4-source\libvorbis\lib\vorbisfile.c(287) : warning C4244: 'return' : conversion from '__int64 ' to 'int ', possible loss of data
+d:\991tren\libwmp3-2.4-source\libvorbis\lib\vorbisfile.c(569) : warning C4244: 'return' : conversion from '__int64 ' to 'int ', possible loss of data
+d:\991tren\libwmp3-2.4-source\libvorbis\lib\vorbisfile.c(800) : warning C4244: 'function' : conversion from '__int64 ' to 'long ', possible loss of data
+d:\991tren\libwmp3-2.4-source\libvorbis\lib\vorbisfile.c(1017) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+d:\991tren\libwmp3-2.4-source\libvorbis\lib\vorbisfile.c(1018) : warning C4244: 'return' : conversion from 'double ' to 'long ', possible loss of data
+d:\991tren\libwmp3-2.4-source\libvorbis\lib\vorbisfile.c(1022) : warning C4244: 'return' : conversion from 'double ' to 'long ', possible loss of data
+d:\991tren\libwmp3-2.4-source\libvorbis\lib\vorbisfile.c(1050) : warning C4244: '=' : conversion from 'double ' to 'long ', possible loss of data
+d:\991tren\libwmp3-2.4-source\libvorbis\lib\vorbisfile.c(1553) : warning C4244: '=' : conversion from '__int64 ' to 'long ', possible loss of data
+d:\991tren\libwmp3-2.4-source\libvorbis\lib\vorbisfile.c(1589) : warning C4244: 'initializing' : conversion from 'double ' to '__int64 ', possible loss of data
+d:\991tren\libwmp3-2.4-source\libvorbis\lib\vorbisfile.c(1619) : warning C4244: 'initializing' : conversion from 'double ' to '__int64 ', possible loss of data
+d:\991tren\libwmp3-2.4-source\libvorbis\lib\vorbisfile.c(1939) : warning C4244: 'initializing' : conversion from 'double ' to 'float ', possible loss of data
+d:\991tren\libwmp3-2.4-source\libvorbis\include\vorbis\vorbisfile.h(53) : warning C4761: integral size mismatch in argument; conversion supplied
+d:\991tren\libwmp3-2.4-source\libvorbis\lib\vorbisfile.c(800) : warning C4761: integral size mismatch in argument; conversion supplied
+Creating library...
+
+
+
+<h3>Results</h3>
+vorbisfile_static_d.lib - 0 error(s), 18 warning(s)
+</pre>
+</body>
+</html>

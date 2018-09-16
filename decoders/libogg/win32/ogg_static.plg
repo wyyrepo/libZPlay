@@ -1,0 +1,29 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ogg_static - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\Angel\LOCALS~1\Temp\RSP2C9.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /I "..\include" /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /Fp"Static_Debug/ogg_static.pch" /YX /Fo"Static_Debug/" /Fd"Static_Debug/" /FD /GZ /c 
+"D:\991tren\libwmp3-2.4-source\libogg\src\bitwise.c"
+"D:\991tren\libwmp3-2.4-source\libogg\src\framing.c"
+]
+Creating command line "cl.exe @D:\DOCUME~1\Angel\LOCALS~1\Temp\RSP2C9.tmp" 
+Creating command line "link.exe -lib /nologo /out:"Static_Debug\ogg_static_d.lib"  ".\Static_Debug\bitwise.obj" ".\Static_Debug\framing.obj" "
+<h3>Output Window</h3>
+Compiling...
+bitwise.c
+framing.c
+Creating library...
+
+
+
+<h3>Results</h3>
+ogg_static_d.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

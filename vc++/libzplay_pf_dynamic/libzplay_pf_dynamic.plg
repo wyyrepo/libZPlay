@@ -1,0 +1,369 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: libzplay_pf_dynamic - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x41a /fo"Release/resource.res" /i "\21tren\libzplay-2.00-src\src" /i "\01project\libzplay-2.00\src" /i "\993tren\libzplay-1.14\src" /d "NDEBUG" /d "LIBZPLAY_PF_VERSION" "D:\21tren\libzplay-2.00-src\src\resource.rc"" 
+Creating temporary file "C:\DOCUME~1\Angel\LOCALS~1\Temp\RSPD5A.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "LIBZPLAY_PF_DYNAMIC_EXPORTS" /D "FLAC__NO_DLL" /D "LIB_ZPLAY_DYNAMIC" /D "LIB_ZPLAY_EXPORT_WITH_DEF_FILE" /D "LIBZPLAY_PF_VERSION" /Fp"Release/libzplay_pf_dynamic.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\21tren\libzplay-2.00-src\src\libzplay.cpp"
+"D:\21tren\libzplay-2.00-src\src\wac3decoder.cpp"
+"D:\21tren\libzplay-2.00-src\src\waudioprocessor.cpp"
+"D:\21tren\libzplay-2.00-src\src\wbmpfont.cpp"
+"D:\21tren\libzplay-2.00-src\src\wbpmdetect.cpp"
+"D:\21tren\libzplay-2.00-src\src\wbpmdetect1.cpp"
+"D:\21tren\libzplay-2.00-src\src\wbpmdetect2.cpp"
+"D:\21tren\libzplay-2.00-src\src\wbpmdetect3.cpp"
+"D:\21tren\libzplay-2.00-src\src\wcentercutprocessor.cpp"
+"D:\21tren\libzplay-2.00-src\src\wdecoder.cpp"
+"D:\21tren\libzplay-2.00-src\src\wechoprocessor.cpp"
+"D:\21tren\libzplay-2.00-src\src\wencoder.cpp"
+"D:\21tren\libzplay-2.00-src\src\weqprocessor.cpp"
+"D:\21tren\libzplay-2.00-src\src\wfft.cpp"
+"D:\21tren\libzplay-2.00-src\src\wflacdecoder.cpp"
+"D:\21tren\libzplay-2.00-src\src\wflacencoder.cpp"
+"D:\21tren\libzplay-2.00-src\src\winputprocessor.cpp"
+"D:\21tren\libzplay-2.00-src\src\wmp3x.cpp"
+"D:\21tren\libzplay-2.00-src\src\woggdecoder.cpp"
+"D:\21tren\libzplay-2.00-src\src\woutputprocessor.cpp"
+"D:\21tren\libzplay-2.00-src\src\wpcmdecoder.cpp"
+"D:\21tren\libzplay-2.00-src\src\wqueue.cpp"
+"D:\21tren\libzplay-2.00-src\src\wspectrum.cpp"
+"D:\21tren\libzplay-2.00-src\src\wstprocessor.cpp"
+"D:\21tren\libzplay-2.00-src\src\wtags.cpp"
+"D:\21tren\libzplay-2.00-src\src\wtools.cpp"
+"D:\21tren\libzplay-2.00-src\src\wvorbisencoder.cpp"
+"D:\21tren\libzplay-2.00-src\src\wwavedecoder.cpp"
+"D:\21tren\libzplay-2.00-src\src\wwaveencoder.cpp"
+"D:\21tren\libzplay-2.00-src\src\wwavein.cpp"
+"D:\21tren\libzplay-2.00-src\src\wwavelet.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Angel\LOCALS~1\Temp\RSPD5A.tmp" 
+Creating temporary file "C:\DOCUME~1\Angel\LOCALS~1\Temp\RSPD5B.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:"Release/libzplay.pdb" /machine:I386 /def:"..\..\src\libzplay.def" /out:"../../binary/pf/libzplay.dll" /implib:"Release/libzplay.lib" 
+".\Release\libzplay.obj"
+".\Release\wac3decoder.obj"
+".\Release\waudioprocessor.obj"
+".\Release\wbmpfont.obj"
+".\Release\wbpmdetect.obj"
+".\Release\wbpmdetect1.obj"
+".\Release\wbpmdetect2.obj"
+".\Release\wbpmdetect3.obj"
+".\Release\wcentercutprocessor.obj"
+".\Release\wdecoder.obj"
+".\Release\wechoprocessor.obj"
+".\Release\wencoder.obj"
+".\Release\weqprocessor.obj"
+".\Release\wfft.obj"
+".\Release\wflacdecoder.obj"
+".\Release\wflacencoder.obj"
+".\Release\winputprocessor.obj"
+".\Release\wmp3x.obj"
+".\Release\woggdecoder.obj"
+".\Release\woutputprocessor.obj"
+".\Release\wpcmdecoder.obj"
+".\Release\wqueue.obj"
+".\Release\wspectrum.obj"
+".\Release\wstprocessor.obj"
+".\Release\wtags.obj"
+".\Release\wtools.obj"
+".\Release\wvorbisencoder.obj"
+".\Release\wwavedecoder.obj"
+".\Release\wwaveencoder.obj"
+".\Release\wwavein.obj"
+".\Release\wwavelet.obj"
+".\Release\resource.res"
+"\21tren\libzplay-2.00-src\decoders\a52dec\vc++\Release\liba52.lib"
+"\21tren\libzplay-2.00-src\decoders\FAAD\LIBFAAD\Release\libfaad.lib"
+"\21tren\libzplay-2.00-src\decoders\libFLAC\Release\libFLAC_static.lib"
+"\21tren\libzplay-2.00-src\decoders\libogg\win32\Static_Release\ogg_static.lib"
+"\21tren\libzplay-2.00-src\decoders\soundtouch\source\SoundTouch\Release\SoundTouch.lib"
+"\21tren\libzplay-2.00-src\decoders\libvorbis\win32\Vorbis_Static_Release\vorbis_static.lib"
+"\21tren\libzplay-2.00-src\decoders\libvorbis\win32\VorbisFile_Static_Release\vorbisfile_static.lib"
+"\21tren\libzplay-2.00-src\DECODERS\jpeglib\Release\jpeglib.lib"
+"\21tren\libzplay-2.00-src\DECODERS\LPNG\libpng\Release\libpng.lib"
+"\21tren\libzplay-2.00-src\decoders\libvorbis\win32\VorbisEnc_Static_Release\vorbisenc_static.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\Angel\LOCALS~1\Temp\RSPD5B.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+libzplay.cpp
+wac3decoder.cpp
+waudioprocessor.cpp
+wbmpfont.cpp
+wbpmdetect.cpp
+wbpmdetect1.cpp
+D:\21tren\libzplay-2.00-src\src\wbpmdetect1.cpp(131) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wbpmdetect1.cpp(170) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wbpmdetect1.cpp(187) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wbpmdetect1.cpp(195) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+wbpmdetect2.cpp
+D:\21tren\libzplay-2.00-src\src\wbpmdetect2.cpp(166) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+wbpmdetect3.cpp
+D:\21tren\libzplay-2.00-src\src\wbpmdetect3.cpp(70) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+D:\21tren\libzplay-2.00-src\src\wbpmdetect3.cpp(70) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+D:\21tren\libzplay-2.00-src\src\wbpmdetect3.cpp(71) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+D:\21tren\libzplay-2.00-src\src\wbpmdetect3.cpp(71) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+D:\21tren\libzplay-2.00-src\src\wbpmdetect3.cpp(72) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+D:\21tren\libzplay-2.00-src\src\wbpmdetect3.cpp(72) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+D:\21tren\libzplay-2.00-src\src\wbpmdetect3.cpp(73) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+D:\21tren\libzplay-2.00-src\src\wbpmdetect3.cpp(73) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+D:\21tren\libzplay-2.00-src\src\wbpmdetect3.cpp(74) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+D:\21tren\libzplay-2.00-src\src\wbpmdetect3.cpp(74) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+D:\21tren\libzplay-2.00-src\src\wbpmdetect3.cpp(75) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+D:\21tren\libzplay-2.00-src\src\wbpmdetect3.cpp(75) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+D:\21tren\libzplay-2.00-src\src\wbpmdetect3.cpp(76) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+D:\21tren\libzplay-2.00-src\src\wbpmdetect3.cpp(76) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+D:\21tren\libzplay-2.00-src\src\wbpmdetect3.cpp(77) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+D:\21tren\libzplay-2.00-src\src\wbpmdetect3.cpp(77) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+D:\21tren\libzplay-2.00-src\src\wbpmdetect3.cpp(78) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+D:\21tren\libzplay-2.00-src\src\wbpmdetect3.cpp(78) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+D:\21tren\libzplay-2.00-src\src\wbpmdetect3.cpp(79) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+D:\21tren\libzplay-2.00-src\src\wbpmdetect3.cpp(79) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+D:\21tren\libzplay-2.00-src\src\wbpmdetect3.cpp(80) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+D:\21tren\libzplay-2.00-src\src\wbpmdetect3.cpp(80) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+D:\21tren\libzplay-2.00-src\src\wbpmdetect3.cpp(81) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+D:\21tren\libzplay-2.00-src\src\wbpmdetect3.cpp(81) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+D:\21tren\libzplay-2.00-src\src\wbpmdetect3.cpp(82) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+D:\21tren\libzplay-2.00-src\src\wbpmdetect3.cpp(82) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+D:\21tren\libzplay-2.00-src\src\wbpmdetect3.cpp(83) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+D:\21tren\libzplay-2.00-src\src\wbpmdetect3.cpp(83) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+D:\21tren\libzplay-2.00-src\src\wbpmdetect3.cpp(84) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+D:\21tren\libzplay-2.00-src\src\wbpmdetect3.cpp(84) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+D:\21tren\libzplay-2.00-src\src\wbpmdetect3.cpp(85) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+D:\21tren\libzplay-2.00-src\src\wbpmdetect3.cpp(85) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+D:\21tren\libzplay-2.00-src\src\wbpmdetect3.cpp(165) : warning C4305: '=' : truncation from 'const double' to 'float'
+D:\21tren\libzplay-2.00-src\src\wbpmdetect3.cpp(188) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wbpmdetect3.cpp(203) : warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wbpmdetect3.cpp(210) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wbpmdetect3.cpp(367) : warning C4305: '-=' : truncation from 'const double' to 'float'
+D:\21tren\libzplay-2.00-src\src\wbpmdetect3.cpp(408) : warning C4305: '+=' : truncation from 'const double' to 'float'
+wcentercutprocessor.cpp
+D:\21tren\libzplay-2.00-src\src\wcentercutprocessor.cpp(70) : warning C4305: 'initializing' : truncation from 'const double' to 'const float'
+D:\21tren\libzplay-2.00-src\src\wcentercutprocessor.cpp(71) : warning C4305: 'initializing' : truncation from 'const double' to 'const float'
+D:\21tren\libzplay-2.00-src\src\wcentercutprocessor.cpp(72) : warning C4305: 'initializing' : truncation from 'const double' to 'const float'
+D:\21tren\libzplay-2.00-src\src\wcentercutprocessor.cpp(82) : warning C4244: 'initializing' : conversion from 'double' to 'const float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wcentercutprocessor.cpp(84) : warning C4305: 'initializing' : truncation from 'const double' to 'const float'
+D:\21tren\libzplay-2.00-src\src\wcentercutprocessor.cpp(689) : warning C4244: 'initializing' : conversion from 'double' to 'const float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wcentercutprocessor.cpp(693) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wcentercutprocessor.cpp(703) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wcentercutprocessor.cpp(859) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wcentercutprocessor.cpp(914) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wcentercutprocessor.cpp(920) : warning C4018: '<' : signed/unsigned mismatch
+D:\21tren\libzplay-2.00-src\src\wcentercutprocessor.cpp(1147) : warning C4018: '>=' : signed/unsigned mismatch
+D:\21tren\libzplay-2.00-src\src\wcentercutprocessor.cpp(1150) : warning C4018: '>=' : signed/unsigned mismatch
+wdecoder.cpp
+D:\21tren\libzplay-2.00-src\src\../decoders/libvorbis/include/vorbis/vorbisfile.h(53) : warning C4244: 'argument' : conversion from '__int64' to 'long', possible loss of data
+wechoprocessor.cpp
+D:\21tren\libzplay-2.00-src\src\wechoprocessor.cpp(196) : warning C4018: '<' : signed/unsigned mismatch
+wencoder.cpp
+D:\21tren\libzplay-2.00-src\src\../decoders/libvorbis/include/vorbis/vorbisfile.h(53) : warning C4244: 'argument' : conversion from '__int64' to 'long', possible loss of data
+weqprocessor.cpp
+D:\21tren\libzplay-2.00-src\src\weqprocessor.cpp(72) : warning C4305: 'initializing' : truncation from 'const double' to 'const float'
+D:\21tren\libzplay-2.00-src\src\weqprocessor.cpp(72) : warning C4305: 'initializing' : truncation from 'const double' to 'const float'
+D:\21tren\libzplay-2.00-src\src\weqprocessor.cpp(78) : warning C4305: 'initializing' : truncation from 'const double' to 'const float'
+D:\21tren\libzplay-2.00-src\src\weqprocessor.cpp(80) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+D:\21tren\libzplay-2.00-src\src\weqprocessor.cpp(214) : warning C4018: '<' : signed/unsigned mismatch
+D:\21tren\libzplay-2.00-src\src\weqprocessor.cpp(297) : warning C4018: '!=' : signed/unsigned mismatch
+D:\21tren\libzplay-2.00-src\src\weqprocessor.cpp(329) : warning C4018: '<' : signed/unsigned mismatch
+D:\21tren\libzplay-2.00-src\src\weqprocessor.cpp(603) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\weqprocessor.cpp(608) : warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\weqprocessor.cpp(616) : warning C4244: 'initializing' : conversion from 'long double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\weqprocessor.cpp(623) : warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\weqprocessor.cpp(708) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\weqprocessor.cpp(800) : warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\weqprocessor.cpp(802) : warning C4018: '<' : signed/unsigned mismatch
+D:\21tren\libzplay-2.00-src\src\weqprocessor.cpp(803) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\weqprocessor.cpp(806) : warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\weqprocessor.cpp(809) : warning C4018: '<' : signed/unsigned mismatch
+D:\21tren\libzplay-2.00-src\src\weqprocessor.cpp(868) : warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\weqprocessor.cpp(907) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\weqprocessor.cpp(908) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\weqprocessor.cpp(909) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\weqprocessor.cpp(911) : warning C4244: '=' : conversion from 'float' to 'unsigned char', possible loss of data
+D:\21tren\libzplay-2.00-src\src\weqprocessor.cpp(915) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\weqprocessor.cpp(916) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\weqprocessor.cpp(937) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\weqprocessor.cpp(938) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\weqprocessor.cpp(939) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\weqprocessor.cpp(941) : warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+D:\21tren\libzplay-2.00-src\src\weqprocessor.cpp(945) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\weqprocessor.cpp(946) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\weqprocessor.cpp(966) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\weqprocessor.cpp(967) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\weqprocessor.cpp(994) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\weqprocessor.cpp(1058) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\weqprocessor.cpp(1059) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\weqprocessor.cpp(1060) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\weqprocessor.cpp(1062) : warning C4244: '=' : conversion from 'float' to 'unsigned char', possible loss of data
+D:\21tren\libzplay-2.00-src\src\weqprocessor.cpp(1066) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\weqprocessor.cpp(1067) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\weqprocessor.cpp(1084) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\weqprocessor.cpp(1085) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\weqprocessor.cpp(1086) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\weqprocessor.cpp(1088) : warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+D:\21tren\libzplay-2.00-src\src\weqprocessor.cpp(1092) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\weqprocessor.cpp(1093) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\weqprocessor.cpp(1109) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\weqprocessor.cpp(1110) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\weqprocessor.cpp(1167) : warning C4018: '>=' : signed/unsigned mismatch
+D:\21tren\libzplay-2.00-src\src\weqprocessor.cpp(1185) : warning C4018: '>=' : signed/unsigned mismatch
+D:\21tren\libzplay-2.00-src\src\weqprocessor.cpp(1261) : warning C4018: '>=' : signed/unsigned mismatch
+D:\21tren\libzplay-2.00-src\src\weqprocessor.cpp(1264) : warning C4018: '>=' : signed/unsigned mismatch
+wfft.cpp
+D:\21tren\libzplay-2.00-src\src\wfft.cpp(88) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wfft.cpp(402) : warning C4244: '=' : conversion from 'long double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wfft.cpp(407) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wfft.cpp(408) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wfft.cpp(425) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wfft.cpp(426) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wfft.cpp(453) : warning C4244: '=' : conversion from 'long double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wfft.cpp(455) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wfft.cpp(457) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wfft.cpp(458) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wfft.cpp(2319) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wfft.cpp(2344) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wfft.cpp(2556) : warning C4244: '=' : conversion from 'long double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wfft.cpp(2557) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wfft.cpp(2558) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wfft.cpp(2600) : warning C4244: '=' : conversion from 'long double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wfft.cpp(2601) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wfft.cpp(2602) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wfft.cpp(2677) : warning C4244: '=' : conversion from 'long double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wfft.cpp(2683) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wfft.cpp(2684) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wfft.cpp(2713) : warning C4244: '=' : conversion from 'long double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wfft.cpp(2719) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wfft.cpp(2720) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wfft.cpp(2794) : warning C4244: '=' : conversion from 'long' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wfft.cpp(2875) : warning C4244: '=' : conversion from 'long double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wfft.cpp(2883) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wfft.cpp(2884) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wfft.cpp(3083) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wfft.cpp(3125) : warning C4244: '=' : conversion from 'long double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wfft.cpp(3157) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wfft.cpp(3158) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wfft.cpp(3159) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wfft.cpp(3160) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wfft.cpp(3253) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wfft.cpp(3262) : warning C4244: '=' : conversion from 'long double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wfft.cpp(3294) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wfft.cpp(3295) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wfft.cpp(3296) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wfft.cpp(3297) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wfft.cpp(3416) : warning C4244: '=' : conversion from 'long double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wfft.cpp(3429) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wfft.cpp(3430) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wfft.cpp(3939) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wfft.cpp(3941) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wfft.cpp(3942) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wfft.cpp(3947) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wfft.cpp(3949) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wfft.cpp(3950) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wfft.cpp(3958) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wfft.cpp(3971) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wfft.cpp(3973) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wfft.cpp(3974) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wfft.cpp(3979) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wfft.cpp(3981) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wfft.cpp(3982) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wfft.cpp(3990) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wfft.cpp(4012) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wfft.cpp(4016) : warning C4305: '=' : truncation from 'const long double' to 'float'
+D:\21tren\libzplay-2.00-src\src\wfft.cpp(4055) : warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wfft.cpp(4058) : warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wfft.cpp(4073) : warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wfft.cpp(4076) : warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wfft.cpp(4090) : warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wfft.cpp(4093) : warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wfft.cpp(4107) : warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wfft.cpp(4110) : warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+wflacdecoder.cpp
+D:\21tren\libzplay-2.00-src\src\../decoders/libvorbis/include/vorbis/vorbisfile.h(53) : warning C4244: 'argument' : conversion from '__int64' to 'long', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wflacdecoder.cpp(1112) : warning C4244: '=' : conversion from 'const unsigned __int64' to 'unsigned int', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wflacdecoder.cpp(1224) : warning C4244: '=' : conversion from 'const __int32' to 'short', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wflacdecoder.cpp(1225) : warning C4244: '=' : conversion from 'const __int32' to 'short', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wflacdecoder.cpp(1239) : warning C4244: '=' : conversion from 'const __int32' to 'short', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wflacdecoder.cpp(1240) : warning C4244: '=' : conversion from 'const __int32' to 'short', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wflacdecoder.cpp(1253) : warning C4244: '=' : conversion from 'const __int32' to 'short', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wflacdecoder.cpp(1254) : warning C4244: '=' : conversion from 'const __int32' to 'short', possible loss of data
+wflacencoder.cpp
+D:\21tren\libzplay-2.00-src\src\../decoders/libvorbis/include/vorbis/vorbisfile.h(53) : warning C4244: 'argument' : conversion from '__int64' to 'long', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wflacencoder.cpp(293) : warning C4244: 'argument' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+winputprocessor.cpp
+wmp3x.cpp
+D:\21tren\libzplay-2.00-src\src\wmp3x.cpp(678) : warning C4018: '!=' : signed/unsigned mismatch
+D:\21tren\libzplay-2.00-src\src\wmp3x.cpp(1569) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wmp3x.cpp(1583) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wmp3x.cpp(1811) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wmp3x.cpp(1812) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wmp3x.cpp(2130) : warning C4018: '!=' : signed/unsigned mismatch
+D:\21tren\libzplay-2.00-src\src\wmp3x.cpp(2432) : warning C4018: '>=' : signed/unsigned mismatch
+D:\21tren\libzplay-2.00-src\src\wmp3x.cpp(2456) : warning C4018: '>=' : signed/unsigned mismatch
+D:\21tren\libzplay-2.00-src\src\wmp3x.cpp(4633) : warning C4244: '=' : conversion from 'double' to 'unsigned int', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wmp3x.cpp(4635) : warning C4244: '=' : conversion from 'double' to 'unsigned int', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wmp3x.cpp(4638) : warning C4244: '=' : conversion from 'double' to 'unsigned int', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wmp3x.cpp(4640) : warning C4244: '=' : conversion from 'double' to 'unsigned int', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wmp3x.cpp(6325) : warning C4018: '<' : signed/unsigned mismatch
+D:\21tren\libzplay-2.00-src\src\wmp3x.cpp(6689) : warning C4146: unary minus operator applied to unsigned type, result still unsigned
+D:\21tren\libzplay-2.00-src\src\wmp3x.cpp(6740) : warning C4018: '<' : signed/unsigned mismatch
+D:\21tren\libzplay-2.00-src\src\wmp3x.cpp(6762) : warning C4018: '<' : signed/unsigned mismatch
+D:\21tren\libzplay-2.00-src\src\wmp3x.cpp(6843) : warning C4146: unary minus operator applied to unsigned type, result still unsigned
+woggdecoder.cpp
+D:\21tren\libzplay-2.00-src\src\../decoders/libvorbis/include/vorbis/vorbisfile.h(53) : warning C4244: 'argument' : conversion from '__int64' to 'long', possible loss of data
+D:\21tren\libzplay-2.00-src\src\woggdecoder.cpp(273) : warning C4244: '=' : conversion from '__int64' to 'unsigned int', possible loss of data
+woutputprocessor.cpp
+wpcmdecoder.cpp
+wqueue.cpp
+wspectrum.cpp
+D:\21tren\libzplay-2.00-src\src\wspectrum.cpp(1988) : warning C4244: '=' : conversion from 'long' to 'unsigned short', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wspectrum.cpp(2044) : warning C4244: '=' : conversion from 'long' to 'unsigned short', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wspectrum.cpp(2122) : warning C4244: '=' : conversion from 'long' to 'unsigned short', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wspectrum.cpp(2163) : warning C4018: '>=' : signed/unsigned mismatch
+D:\21tren\libzplay-2.00-src\src\wspectrum.cpp(3146) : warning C4018: '<' : signed/unsigned mismatch
+D:\21tren\libzplay-2.00-src\src\wspectrum.cpp(3150) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wspectrum.cpp(3263) : warning C4018: '<=' : signed/unsigned mismatch
+D:\21tren\libzplay-2.00-src\src\wspectrum.cpp(3441) : warning C4018: '<=' : signed/unsigned mismatch
+D:\21tren\libzplay-2.00-src\src\wspectrum.cpp(3506) : warning C4018: '<' : signed/unsigned mismatch
+D:\21tren\libzplay-2.00-src\src\wspectrum.cpp(3588) : warning C4018: '>=' : signed/unsigned mismatch
+wstprocessor.cpp
+D:\21tren\libzplay-2.00-src\src\wstprocessor.cpp(238) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wstprocessor.cpp(255) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wstprocessor.cpp(270) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+wtags.cpp
+wtools.cpp
+wvorbisencoder.cpp
+wwavedecoder.cpp
+wwaveencoder.cpp
+wwavein.cpp
+wwavelet.cpp
+D:\21tren\libzplay-2.00-src\src\wwavelet.cpp(39) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+D:\21tren\libzplay-2.00-src\src\wwavelet.cpp(39) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+D:\21tren\libzplay-2.00-src\src\wwavelet.cpp(39) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+D:\21tren\libzplay-2.00-src\src\wwavelet.cpp(39) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+D:\21tren\libzplay-2.00-src\src\wwavelet.cpp(40) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+D:\21tren\libzplay-2.00-src\src\wwavelet.cpp(40) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+D:\21tren\libzplay-2.00-src\src\wwavelet.cpp(40) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+D:\21tren\libzplay-2.00-src\src\wwavelet.cpp(40) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+D:\21tren\libzplay-2.00-src\src\wwavelet.cpp(71) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wwavelet.cpp(72) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wwavelet.cpp(73) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wwavelet.cpp(74) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wwavelet.cpp(137) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\21tren\libzplay-2.00-src\src\wwavelet.cpp(138) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+Linking...
+   Creating library Release/libzplay.lib and object Release/libzplay.exp
+
+
+
+<h3>Results</h3>
+libzplay.dll - 0 error(s), 233 warning(s)
+</pre>
+</body>
+</html>

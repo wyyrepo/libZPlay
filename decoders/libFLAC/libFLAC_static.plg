@@ -1,0 +1,56 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: libFLAC_static - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\Angel\LOCALS~1\Temp\RSP49D8.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I ".\include" /I "..\..\include" /D VERSION=\"1.2.1\" /D "FLAC__NO_DLL" /D "FLAC__HAS_OGG" /D "FLAC__CPU_IA32" /D "FLAC__HAS_NASM" /D "FLAC__USE_3DNOW" /D "WIN32" /D "_DEBUG" /D "DEBUG" /D "FLAC__OVERFLOW_DETECT" /D "_MBCS" /D "_LIB" /Fp"Debug_static/libFLAC_static.pch" /YX /Fo"Debug_static/" /Fd"Debug_static/" /FD /GZ /c 
+"D:\991tren\libwmp3x-1.01-source\libFLAC\ogg_encoder_aspect.c"
+"D:\991tren\libwmp3x-1.01-source\libFLAC\ogg_helper.c"
+"D:\991tren\libwmp3x-1.01-source\libFLAC\stream_encoder.c"
+]
+Creating command line "cl.exe @D:\DOCUME~1\Angel\LOCALS~1\Temp\RSP49D8.tmp" 
+Creating temporary file "D:\DOCUME~1\Angel\LOCALS~1\Temp\RSP49D9.tmp" with contents
+[
+/nologo /out:"..\..\obj\debug\lib\libFLAC_static.lib" /nodefaultlib 
+".\Debug_static\bitmath.obj"
+".\Debug_static\bitreader.obj"
+".\Debug_static\bitwriter.obj"
+".\Debug_static\cpu.obj"
+".\Debug_static\crc.obj"
+".\Debug_static\fixed.obj"
+".\Debug_static\float.obj"
+".\Debug_static\format.obj"
+".\Debug_static\lpc.obj"
+".\Debug_static\md5.obj"
+".\Debug_static\memory.obj"
+".\Debug_static\metadata_iterators.obj"
+".\Debug_static\metadata_object.obj"
+".\Debug_static\ogg_decoder_aspect.obj"
+".\Debug_static\ogg_encoder_aspect.obj"
+".\Debug_static\ogg_helper.obj"
+".\Debug_static\ogg_mapping.obj"
+".\Debug_static\stream_decoder.obj"
+".\Debug_static\stream_encoder.obj"
+".\Debug_static\stream_encoder_framing.obj"
+".\Debug_static\window.obj"
+]
+Creating command line "link.exe -lib @D:\DOCUME~1\Angel\LOCALS~1\Temp\RSP49D9.tmp"
+<h3>Output Window</h3>
+Compiling...
+ogg_encoder_aspect.c
+ogg_helper.c
+stream_encoder.c
+Creating library...
+
+
+
+<h3>Results</h3>
+libFLAC_static.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

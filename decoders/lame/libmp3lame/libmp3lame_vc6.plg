@@ -1,0 +1,104 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: libmp3lame - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Angel\LOCALS~1\Temp\RSP17.bat" with contents
+[
+@echo off
+copy ..\configMS.h ..\config.h
+]
+Creating command line "C:\DOCUME~1\Angel\LOCALS~1\Temp\RSP17.bat"
+Creating temporary file "C:\DOCUME~1\Angel\LOCALS~1\Temp\RSP18.tmp" with contents
+[
+/nologo /ML /W3 /O2 /Ob2 /I "../" /I "../mpglib" /I "../include" /I ".." /D "NDEBUG" /D "_WINDOWS" /D "WIN32" /D "HAVE_CONFIG_H" /Fo"..\obj\Release\libmp3lame/" /Fd"..\obj\Release\libmp3lame/" /Gs1024 /FD /GAy /QIfdiv /QI0f /c 
+"D:\01project\libzplay-2.00\decoders\lame\libmp3lame\bitstream.c"
+"D:\01project\libzplay-2.00\decoders\lame\libmp3lame\encoder.c"
+"D:\01project\libzplay-2.00\decoders\lame\libmp3lame\fft.c"
+"D:\01project\libzplay-2.00\decoders\lame\libmp3lame\gain_analysis.c"
+"D:\01project\libzplay-2.00\decoders\lame\libmp3lame\id3tag.c"
+"D:\01project\libzplay-2.00\decoders\lame\libmp3lame\lame.c"
+"D:\01project\libzplay-2.00\decoders\lame\libmp3lame\mpglib_interface.c"
+"D:\01project\libzplay-2.00\decoders\lame\libmp3lame\newmdct.c"
+"D:\01project\libzplay-2.00\decoders\lame\libmp3lame\presets.c"
+"D:\01project\libzplay-2.00\decoders\lame\libmp3lame\psymodel.c"
+"D:\01project\libzplay-2.00\decoders\lame\libmp3lame\quantize.c"
+"D:\01project\libzplay-2.00\decoders\lame\libmp3lame\quantize_pvt.c"
+"D:\01project\libzplay-2.00\decoders\lame\libmp3lame\reservoir.c"
+"D:\01project\libzplay-2.00\decoders\lame\libmp3lame\set_get.c"
+"D:\01project\libzplay-2.00\decoders\lame\libmp3lame\takehiro.c"
+"D:\01project\libzplay-2.00\decoders\lame\libmp3lame\util.c"
+"D:\01project\libzplay-2.00\decoders\lame\libmp3lame\vbrquantize.c"
+"D:\01project\libzplay-2.00\decoders\lame\libmp3lame\VbrTag.c"
+"D:\01project\libzplay-2.00\decoders\lame\libmp3lame\version.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Angel\LOCALS~1\Temp\RSP18.tmp" 
+Creating temporary file "C:\DOCUME~1\Angel\LOCALS~1\Temp\RSP19.tmp" with contents
+[
+/nologo /ML /W1 /O2 /Ob2 /I "../" /I "../mpglib" /I "../include" /I ".." /D "NDEBUG" /D "_WINDOWS" /D "WIN32" /D "HAVE_CONFIG_H" /Fo"..\obj\Release\libmp3lame/" /Fd"..\obj\Release\libmp3lame/" /Gs1024 /FD /GAy /QIfdiv /QI0f /c 
+"D:\01project\libzplay-2.00\decoders\lame\libmp3lame\tables.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Angel\LOCALS~1\Temp\RSP19.tmp" 
+Performing Custom Build Step on configMS
+        1 file(s) copied.
+Creating temporary file "C:\DOCUME~1\Angel\LOCALS~1\Temp\RSP1A.tmp" with contents
+[
+/nologo /out:"..\output\Release\libmp3lame-static.lib" 
+"\01project\libzplay-2.00\decoders\lame\obj\Release\libmp3lame\bitstream.obj"
+"\01project\libzplay-2.00\decoders\lame\obj\Release\libmp3lame\encoder.obj"
+"\01project\libzplay-2.00\decoders\lame\obj\Release\libmp3lame\fft.obj"
+"\01project\libzplay-2.00\decoders\lame\obj\Release\libmp3lame\gain_analysis.obj"
+"\01project\libzplay-2.00\decoders\lame\obj\Release\libmp3lame\id3tag.obj"
+"\01project\libzplay-2.00\decoders\lame\obj\Release\libmp3lame\lame.obj"
+"\01project\libzplay-2.00\decoders\lame\obj\Release\libmp3lame\mpglib_interface.obj"
+"\01project\libzplay-2.00\decoders\lame\obj\Release\libmp3lame\newmdct.obj"
+"\01project\libzplay-2.00\decoders\lame\obj\Release\libmp3lame\presets.obj"
+"\01project\libzplay-2.00\decoders\lame\obj\Release\libmp3lame\psymodel.obj"
+"\01project\libzplay-2.00\decoders\lame\obj\Release\libmp3lame\quantize.obj"
+"\01project\libzplay-2.00\decoders\lame\obj\Release\libmp3lame\quantize_pvt.obj"
+"\01project\libzplay-2.00\decoders\lame\obj\Release\libmp3lame\reservoir.obj"
+"\01project\libzplay-2.00\decoders\lame\obj\Release\libmp3lame\set_get.obj"
+"\01project\libzplay-2.00\decoders\lame\obj\Release\libmp3lame\tables.obj"
+"\01project\libzplay-2.00\decoders\lame\obj\Release\libmp3lame\takehiro.obj"
+"\01project\libzplay-2.00\decoders\lame\obj\Release\libmp3lame\util.obj"
+"\01project\libzplay-2.00\decoders\lame\obj\Release\libmp3lame\vbrquantize.obj"
+"\01project\libzplay-2.00\decoders\lame\obj\Release\libmp3lame\VbrTag.obj"
+"\01project\libzplay-2.00\decoders\lame\obj\Release\libmp3lame\version.obj"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\Angel\LOCALS~1\Temp\RSP1A.tmp"
+<h3>Output Window</h3>
+Compiling...
+bitstream.c
+encoder.c
+fft.c
+gain_analysis.c
+id3tag.c
+lame.c
+mpglib_interface.c
+newmdct.c
+presets.c
+psymodel.c
+quantize.c
+quantize_pvt.c
+reservoir.c
+set_get.c
+takehiro.c
+util.c
+vbrquantize.c
+VbrTag.c
+version.c
+Generating Code...
+Compiling...
+tables.c
+Creating library...
+
+
+
+<h3>Results</h3>
+libmp3lame-static.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
